@@ -8,11 +8,45 @@
 
 /* Background color */
 body{
-    background: #456990;
+    background: #69320f;
     color: #fff;
     font: normal 16px/1.5 "Helvetica Neue", sans-serif;
     overflow-x: hidden;
     padding-bottom: 50px;
+}
+
+/* INTRO
+-------------- */
+.intro {
+    background: #f45b69;
+    padding: 100px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: auto;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Iframe custom 
+-----------------*/
+.iframe-container{
+    position: relative;
+    width: fit-content;
+    padding-bottom: 56.25%;
+    height: auto;
+}
+
+.iframe-container iframe{
+    position: relative;
+    padding-left: 5%;
+    width: fit-content;
+    height: auto;
 }
 
 /* TIMELINE
@@ -20,7 +54,7 @@ body{
 
 /* The actual timeline (vertical ruler) */
 .timeline ul {
-    background: #456990;
+    background: #883907;
     padding: 50px 0;
     
 }
@@ -42,7 +76,7 @@ body{
     left: 50%;
     transform: translateX(-50%);
     width: 30px;
-    height: 30px;
+    height: auto;
     border-radius: 50%;
     background: inherit;
     z-index: 1;
